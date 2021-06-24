@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTvMaze", "ConsoleTvMaze\ConsoleTvMaze.csproj", "{4C79278F-A55A-432C-A963-DF10AC7D2319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C79278F-A55A-432C-A963-DF10AC7D2319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C79278F-A55A-432C-A963-DF10AC7D2319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C79278F-A55A-432C-A963-DF10AC7D2319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C79278F-A55A-432C-A963-DF10AC7D2319}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C923378-CA53-4A0B-B3F1-523CE4DC7D21}
+	EndGlobalSection
+EndGlobal
