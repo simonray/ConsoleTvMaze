@@ -62,8 +62,8 @@ public class TvmazeService
         var endTime = programme.airstamp.AddMinutes(duration);
         var title = programme.name;
         var season = $"S{programme.season.ToString("D2")}E{Episode(programme).ToString("D2")}";
-        var network = programme._embedded.show.network.name;
-        
+        var network = programme._embedded.show.network?.name ?? null;
+
         return $"{startTime} {name}: {title} {season} ({duration}) {network}";
     }
 
